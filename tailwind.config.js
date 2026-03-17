@@ -1,5 +1,8 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default {
     presets: [
